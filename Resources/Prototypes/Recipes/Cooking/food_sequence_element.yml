@@ -547,6 +547,15 @@
   tags:
   - Vegetable
 
+# Chanterelle
+
+- type: foodSequenceElement
+  id: Chanterelle
+  name: food-sequence-content-mushroom
+  sprites:
+  - sprite: Objects/Specific/Hydroponics/chanterelle.rsi
+    state: produce
+
 # Garlic
 
 - type: foodSequenceElement
