@@ -43,8 +43,8 @@
     children:
     - !type:NestedSelector
       tableId: MaintBarStandardTable
-      rolls: !type:RangeNumberSelector # This sometimes results in duplicate items, unfortunately
-        range: 3, 5
+      rolls: !type:BinomialNumberSelector # This sometimes results in duplicate items, unfortunately
+        trials: 5
     - !type:NestedSelector
       tableId: MaintBarArmorTable
       prob: 0.20
