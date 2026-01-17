@@ -1,5 +1,5 @@
 - type: entity
-  id: LockerBoozeFilled
+  id: LockerBoozeFilled # For the standard bar
   suffix: Filled
   parent: LockerBooze
   components:
@@ -12,19 +12,89 @@
   id: FillLockerBooze
   table: !type:AllSelector
     children:
-    - id: ClothingOuterArmorBasicSlim
-    - id: WeaponShotgunDoubleBarreledRubber
-    - id: DrinkShaker
+    # Normal bartending gear
     - id: ClothingEyesHudBeer
-    - id: HandLabeler
     - id: DrinkBeerBottleFull
       amount: !type:BinomialNumberSelector
         trials: 3
-    - !type:AllSelector
-      rolls: 2
+    - id: DrinkShaker
+    - id: HandLabeler
+    - id: RagItem
+      amount: 2
+    # Nonlethal armaments, for defending the bar from animals and rowdy customers and whatnot
+    - id: ClothingOuterArmorBasicSlim
+    - id: WeaponShotgunDoubleBarreledRubber
+    - id: BoxBeanbag
+      amount: 2
+
+- type: entity
+  id: LockerBoozeFilledMaints # For the maints bar; randomized contents to represent that it's been used and abandoned
+  suffix: Maints, Filled
+  parent: LockerBooze
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillLockerBoozeMaints
+
+- type: entityTable
+  id: FillLockerBoozeMaints
+  table: !type:AllSelector
+    children:
+    - !type:NestedSelector
+      tableId: MaintBarStandardTable
+      rolls: !type:RangeNumberSelector # This sometimes results in duplicate items, unfortunately
+        range: 3, 5
+    - !type:NestedSelector
+      tableId: MaintBarArmorTable
+      prob: 0.20
+    - !type:NestedSelector
+      tableId: MaintBarShotgunTable
+      prob: 0.1 # Slightly higher chance than finding weapons in normal maints lockers, since this is a more "specific" locker (and one with a lock on it)
+    - !type:NestedSelector
+      tableId: MaintBarShotgunAmmoTable
+      prob: 0.05
+
+- type: entityTable
+  id: MaintBarStandardTable # For the maints bar; randomly spawns one piece of normal bartending gear. We exclude the beer goggles since they're a thief objective and this makes it too easy.
+  table: !type:GroupSelector
+    children:
+    - id: DrinkBeerBottleFull
+    - id: DrinkShaker
+    - id: HandLabeler
+    - id: RagItem
+
+- type: entityTable
+  id: MaintBarArmorTable # For the maints bar; randomly spawns one piece of armor
+  table: !type:GroupSelector
+    children:
+    - id: ClothingOuterArmorBasicSlim
+
+- type: entityTable
+  id: MaintBarShotgunTable # For the maints bar; randomly spawns either the normal bar shotgun or a firearm with lethal rounds
+  table: !type:GroupSelector
+    children:
+    - id: WeaponShotgunDoubleBarreledRubber
+      weight: 95
+    - !type:GroupSelector # Lethal shotguns
+      weight: 5
       children:
-      - id: BoxBeanbag
-      - id: RagItem
+      - id: WeaponShotgunDoubleBarreled
+      - id: WeaponShotgunSawn
+
+- type: entityTable
+  id: MaintBarShotgunAmmoTable # For the maints bar; randomly spawns either the normal box of beanbag shells or a more exotic ammo type
+  table: !type:GroupSelector
+    children:
+    - id: BoxBeanbag
+      weight: 95
+    - !type:GroupSelector
+      weight: 5
+      children:
+      - id: BoxLethalshot
+      - id: BoxShotgunFlare
+      - id: BoxShotgunPractice
+      - id: BoxShellTranquilizer
 
 #- type: entity
 #  id: LockerFormalFilled
