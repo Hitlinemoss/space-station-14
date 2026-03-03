@@ -143,7 +143,7 @@
         reagents:
         - ReagentId: Silicon
           Quantity: 2 # 2/5ths of regular glass shards (consistent with the difference between DrinkBaseMaterialGlass and DrinkBaseMaterialPorcelain)
-  - type: Construction # TODO: unique porcelain shiv
+  - type: Construction
     graph: PorcelainShivConstruct
     node: start
 

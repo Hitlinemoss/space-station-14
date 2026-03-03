@@ -23,6 +23,14 @@
   objectType: Item
 
 - type: construction
+  id: PorcelainShiv
+  graph: PorcelainShiv
+  startNode: start
+  targetNode: icon
+  category: construction-category-weapons
+  objectType: Item
+
+- type: construction
   id: ReinforcedShiv
   graph: ReinforcedShiv
   startNode: start
