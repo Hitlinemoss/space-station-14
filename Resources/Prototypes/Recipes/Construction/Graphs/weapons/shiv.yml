@@ -42,6 +42,49 @@
     entity: Shiv
 
 - type: constructionGraph
+  id: PorcelainShivConstruct
+  start: start
+  graph:
+  - node: start
+    entity: ShardPorcelain
+    edges:
+    - to: icon
+      completed:
+      - !type:AdminLog
+        message: "Construction"
+        impact: High
+      steps:
+      - material: Cloth
+        amount: 1
+        doAfter: 1
+  - node: icon
+    entity: PorcelainShiv
+
+- type: constructionGraph
+  id: PorcelainShiv
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: icon
+      completed:
+      - !type:AdminLog
+        message: "Construction"
+        impact: High
+      steps:
+      - tag: GlassShard
+        name: construction-graph-tag-porcelain-shard
+        icon:
+          sprite: Objects/Materials/Shards/shard_opaque.rsi
+          state: shard1
+        doAfter: 1
+      - material: Cloth
+        amount: 1
+        doAfter: 1
+  - node: icon
+    entity: PorcelainShiv
+
+- type: constructionGraph
   id: ReinforcedShivConstruct
   start: start
   graph:

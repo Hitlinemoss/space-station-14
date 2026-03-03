@@ -270,6 +270,20 @@
         friction: 0.2
 
 - type: entity
+  name: porcelain shiv
+  parent: Shiv
+  id: PorcelainShiv
+  description: A crude weapon fashioned from a piece of cloth and a porcelain shard.
+  components:
+  - type: Construction
+    graph: PorcelainShiv
+    node: icon
+  - type: Item
+    sprite: Objects/Weapons/Melee/porcelain_shiv.rsi
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/porcelain_shiv.rsi
+
+- type: entity
   name: reinforced shiv
   parent: Shiv
   id: ReinforcedShiv
