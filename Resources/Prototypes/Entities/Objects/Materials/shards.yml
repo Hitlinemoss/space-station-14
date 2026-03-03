@@ -142,7 +142,7 @@
       shardglass:
         reagents:
         - ReagentId: Silicon
-          Quantity: 5 #Half of the value of regular glass. TECHNICALLY, welding a single shard of glass gives you the full thing back with just 1 sheet, but that is stupid so I am making it half.
+          Quantity: 2 # 2/5ths of regular glass shards (consistent with the difference between DrinkBaseMaterialGlass and DrinkBaseMaterialPorcelain)
   - type: Construction # TODO: unique porcelain shiv
     graph: ShivConstruct
     node: start

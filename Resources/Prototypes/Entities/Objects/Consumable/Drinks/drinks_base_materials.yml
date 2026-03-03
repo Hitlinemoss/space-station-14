@@ -50,7 +50,7 @@
     materialComposition:
       Glass: 25
 
-# Porcelain (like glass but no shard)
+# Porcelain (like glass but different shards)
 - type: entity
   abstract: true
   parent: DrinkBaseMaterialGlass
@@ -72,6 +72,12 @@
         sound:
           collection: GlassCrack
       - !type:SpillBehavior { }
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardPorcelain:
+            min: 1
+            max: 1
+        transferForensics: true
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: PhysicalComposition
