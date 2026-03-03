@@ -85,7 +85,7 @@
   parent: ShardBase
   id: ShardGlass
   name: glass shard
-  description: A small piece of glass.
+  description: A small piece of broken glass.
   components:
   - type: Sprite
     color: "#bbeeff"
@@ -112,11 +112,46 @@
     graph: ShivConstruct
     node: start
 
+# Porcelain shards are used for broken bowls, mugs, etc. Technically not "glass" but close enough for our gameplay purposes.
+# Mostly identical to standard glass shards, but we don't parent from ShardGlass directly because we don't want its ToolRefinable component (since porcelain isn't
+# its own material sheet, and it'd be weird for opaque porcelain shards to be weldable into transparent glass).
+- type: entity
+  parent: ShardBase
+  id: ShardPorcelain
+  name: porcelain shard
+  description: A small piece of broken porcelain.
+  components:
+  - type: Sprite
+    layers:
+      - sprite: Objects/Materials/Shards/shard_opaque.rsi
+        state: shard1
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+    color: "#e6dbcf"
+  - type: DamageOnTrigger
+    damage:
+      types:
+        Piercing: 4.5
+  - type: Tag
+    tags:
+      - GlassShard
+      - Trash
+  - type: Extractable
+    grindableSolutionName: shardglass
+  - type: SolutionContainerManager
+    solutions:
+      shardglass:
+        reagents:
+        - ReagentId: Silicon
+          Quantity: 5 #Half of the value of regular glass. TECHNICALLY, welding a single shard of glass gives you the full thing back with just 1 sheet, but that is stupid so I am making it half.
+  - type: Construction # TODO: unique porcelain shiv
+    graph: ShivConstruct
+    node: start
+
 - type: entity
   parent: ShardBase
   id: ShardGlassReinforced
   name: reinforced glass shard
-  description: A small piece of reinforced glass.
+  description: A small piece of broken reinforced glass.
   components:
   - type: Sprite
     color: "#96cdef"
@@ -152,7 +187,7 @@
   parent: ShardBase
   id: ShardGlassPlasma
   name: plasma glass shard
-  description: A small piece of plasma glass.
+  description: A small piece of broken plasma glass.
   components:
   - type: Sprite
     color: "#FF72E7"
@@ -190,7 +225,7 @@
   parent: ShardBase
   id: ShardGlassUranium
   name: uranium glass shard
-  description: A small piece of uranium glass.
+  description: A small piece of broken uranium glass.
   components:
   - type: Sprite
     color: "#8eff7a"
@@ -230,7 +265,7 @@
   parent: ShardBase
   id: ShardGlassClockwork
   name: clockwork glass shard
-  description: A small piece of brass-infused glass.
+  description: A small piece of broken brass-infused glass.
   components:
   - type: Sprite
     color: "#e0aa36"
