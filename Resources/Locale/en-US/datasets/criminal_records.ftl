@@ -45,4 +45,3 @@ placeholders-criminal-records-wanted-reason-44 = Too unemployed
 placeholders-criminal-records-wanted-reason-45 = Wasn't wearing their uniform
 placeholders-criminal-records-wanted-reason-46 = Wore a gas mask
 placeholders-criminal-records-wanted-reason-47 = Wore boxing gloves
-
