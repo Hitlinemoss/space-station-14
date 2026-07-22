@@ -1,6 +1,6 @@
 # Command
 
-figurines-captain-1 = Glory to NT!
+figurines-captain-1 = Glory to Nanotrasen!
 figurines-captain-2 = How did I get hired? Yes.
 figurines-captain-3 = The nuclear disk is secure. Where? Somewhere.
 figurines-captain-4 = Where did my ID go?
@@ -20,7 +20,7 @@ figurines-qm-6 = Viva la Cargonia!
 figurines-qm-7 = Where'd all our money go?
 figurines-qm-8 = 99% of gamblers quit right before they hit it big!
 
-figurines-cargotech-1 = DRAGON ON ATS!
+figurines-cargotech-1 = DRAGON ON ATS!!
 figurines-cargotech-2 = I sold the station!
 figurines-cargotech-3 = Brain bounty? I don't have a brain.
 figurines-cargotech-4 = You're worth 3000 spesos. Congrats.
@@ -29,8 +29,7 @@ figurines-cargotech-6 = WE ARE SECEDING!! ALL HAIL CARGONIA!!
 figurines-cargotech-7 = Pizza party at cargo!
 figurines-cargotech-8 = The mail never stops...
 figurines-cargotech-9 = Nothing stops the mail!
-figurines-cargotech-10 = Clown mask bounty? Alright, let me just find a weapon...
-figurines-cargotech-11 = Laser bounty? Nobody will notice if we ship practice lasers instead, right?
+figurines-cargotech-10 = Laser bounty? Nobody will notice if we ship practice lasers instead, right?
 
 figurines-salvage-1 = Megafauna? It was mega easy.
 figurines-salvage-2 = We're lost. Anyone bring a GPS?
@@ -47,8 +46,8 @@ figurines-salvage-9 = Can we borrow the cargo shuttle? Please?
 figurines-ce-1 = Everyone to the briefing!
 figurines-ce-2 = Wire the solars!
 figurines-ce-3 = How to setup the TEG?
-figurines-ce-4 = SINGULOOSE!
-figurines-ce-5 = TESLOOSE!
+figurines-ce-4 = SINGULOOSE!!
+figurines-ce-5 = TESLOOSE!!
 figurines-ce-6 = Power's out again.
 
 figurines-atmostech-1 = I put plasma in distro.
@@ -61,8 +60,8 @@ figurines-atmostech-7 = TEG: Thermal Energy? Gone!
 figurines-atmostech-8 = Does anyone else hear glass cracking?
 figurines-atmostech-9 = I promise this burn chamber is totally safe and will NOT explode.
 
-figurines-engineer-1 = SINGULOOSE!
-figurines-engineer-2 = TESLOOSE!
+figurines-engineer-1 = SINGULOOSE!!
+figurines-engineer-2 = TESLOOSE!!
 figurines-engineer-3 = Did anyone remember to turn the AME on?
 figurines-engineer-4 = Free insuls at Engineering!
 figurines-engineer-5 = Where'd the power go?

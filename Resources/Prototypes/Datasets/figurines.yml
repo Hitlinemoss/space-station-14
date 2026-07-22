@@ -86,7 +86,7 @@
   id: FigurinesCargoTech
   values:
     prefix: figurines-cargotech-
-    count: 11
+    count: 10
 
 - type: localizedDataset
   id: FigurinesSalvage
