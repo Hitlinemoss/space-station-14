@@ -2,10 +2,10 @@
 
 figurines-captain-1 = Glory to Nanotrasen!
 figurines-captain-2 = How did I get hired? Yes.
-figurines-captain-3 = The nuclear disk is secure. Where? Somewhere.
+figurines-captain-3 = The disk is secure. Where? Somewhere.
 figurines-captain-4 = Where did my ID go?
 figurines-captain-5 = Everything is under control.
-figurines-captain-6 = The disk was in my bag last I checked.
+figurines-captain-6 = The disk was in my bag, last I checked.
 figurines-captain-7 = The chain of command starts and ends with me.
 figurines-captain-8 = It's hard being at the top.
 
@@ -14,22 +14,23 @@ figurines-captain-8 = It's hard being at the top.
 figurines-qm-1 = Who stole the shuttle?
 figurines-qm-2 = Wait, where did my digi-board go?
 figurines-qm-3 = I didn't approve that shipment of guns!
-figurines-qm-4 = One toy box for my fellow clown!
-figurines-qm-5 = Time to gamble!
-figurines-qm-6 = Viva la Cargonia!
-figurines-qm-7 = Where'd all our money go?
-figurines-qm-8 = 99% of gamblers quit right before they hit it big!
+figurines-qm-4 = Where'd all our money go?
+figurines-qm-5 = PLEASE stop approving the clown's orders.
+figurines-qm-6 = Did salvage die in space again?
+figurines-qm-7 = Let's keep those crates moving, people.
 
 figurines-cargotech-1 = DRAGON ON ATS!!
 figurines-cargotech-2 = I sold the station!
-figurines-cargotech-3 = Brain bounty? I don't have a brain.
-figurines-cargotech-4 = You're worth 3000 spesos. Congrats.
-figurines-cargotech-5 = Vegetable bounty? Nobody eats those anyways.
-figurines-cargotech-6 = WE ARE SECEDING!! ALL HAIL CARGONIA!!
-figurines-cargotech-7 = Pizza party at cargo!
-figurines-cargotech-8 = The mail never stops...
-figurines-cargotech-9 = Nothing stops the mail!
-figurines-cargotech-10 = Laser bounty? Nobody will notice if we ship practice lasers instead, right?
+figurines-cargotech-3 = You're worth 3000 spesos. Congrats.
+figurines-cargotech-4 = Viva la Cargonia!
+figurines-cargotech-5 = Pizza party at cargo!
+figurines-cargotech-6 = The mail never stops...
+figurines-cargotech-7 = Nothing stops the mail!
+figurines-cargotech-8 = One toy box for my fellow clown!
+figurines-cargotech-9 = Time to gamble!
+figurines-cargotech-10 = Brain bounty? I don't have a brain.
+figurines-cargotech-11 = Laser bounty? Just ship practice lasers, nobody will notice.
+figurines-cargotech-12 = Vegetable bounty? Nobody eats those anyways.
 
 figurines-salvage-1 = Megafauna? It was mega easy.
 figurines-salvage-2 = We're lost. Anyone bring a GPS?
@@ -83,7 +84,8 @@ figurines-chemist-4 = Say my name.
 figurines-chemist-5 = 99.8% purity.
 figurines-chemist-6 = Epinephrine? Didn't you say methamphetamine?
 figurines-chemist-7 = Pills here!
-figurines-chemist-8 = Legally speaking, it's not actually a bomb until you mix both beakers together.
+figurines-chemist-8 = Legally speaking that's not a bomb. Yet.
+figurines-chemist-9 = This isn't "medicine", but it'll make you FEEL good.
 
 figurines-doctor-1 = The patient is already dead!
 figurines-doctor-2 = CLEAR!
@@ -91,16 +93,17 @@ figurines-doctor-3 = Saw makes BRRR.
 figurines-doctor-4 = Just a week away...
 figurines-doctor-5 = I knew it...
 figurines-doctor-6 = Well, at least we have body bags.
+figurines-doctor-7 = Morgue 'em.
 
 figurines-paramedic-1 = Insuls and tools!
-figurines-paramedic-2 = I need AA for saving people!
+figurines-paramedic-2 = I need AA to save lives!
 figurines-paramedic-3 = SUIT SENSORS!!
-figurines-paramedic-4 = I need the hypospray for saving people!
+figurines-paramedic-4 = I need the hypospray to save lives!
 figurines-paramedic-5 = 14 dead in the clown's room.
 
 # Science
 
-figurines-rd-1 = Blowing up all of the borgs!
+figurines-rd-1 = Sometimes science requires sacrifices.
 figurines-rd-2 = Tier 3 Arsenal? No way.
 figurines-rd-3 = Now where did I leave my hardsuit...?
 figurines-rd-4 = Now you're thinking with portals!
@@ -113,6 +116,7 @@ figurines-scientist-3 = Carp at sci!
 figurines-scientist-4 = Explosion at sci!
 figurines-scientist-5 = Anyone seen an anomaly?
 figurines-scientist-6 = The anomaly exploded!
+figurines-scientist-7 = It's not "endangerment", it's a SCIENTIFIC STUDY.
 
 # Security
 
@@ -127,6 +131,7 @@ figurines-detective-2 = I need some whiskey after this.
 figurines-detective-3 = Chameleon fibers? How did a chameleon get in here?
 figurines-detective-4 = Go go gadget!
 figurines-detective-5 = Of course I checked the door logs!
+figurines-detective-6 = I'm taking a smoke break.
 
 figurines-security-1 = I am the law!
 figurines-security-2 = You have violated article 1984.
@@ -150,11 +155,13 @@ figurines-warden-6 = You're going away for a long time, buddy.
 
 figurines-hop-1 = Papers, please.
 figurines-hop-2 = You are fired.
-figurines-hop-3 = BRB.
+figurines-hop-3 = Be right back.
 figurines-hop-4 = Fill out the form.
 figurines-hop-5 = I was gone for two seconds...
 figurines-hop-6 = Go get this form stamped.
-figurines-hop-7 = Has anyone seen Ian?
+figurines-hop-7 = Has anyone seen my dog?
+figurines-hop-8 = ID, please.
+figurines-hop-9 = We're cutting your budget.
 
 figurines-bartender-1 = Where's my monkey?
 figurines-bartender-2 = Sec won't drink.
@@ -180,9 +187,10 @@ figurines-boxer-6 = I only make special appearances these days.
 figurines-chaplain-1 = Would you like to join my cul- I mean religion.
 figurines-chaplain-2 = Gods, please make me a killing machine!
 figurines-chaplain-3 = God exists!
-figurines-chaplain-4 = Those aren't blood runes, I drew them in crayon.
+figurines-chaplain-4 = Those aren't blood runes, I drew them with a crayon.
 figurines-chaplain-5 = Anyone want to be sacrificed?
 figurines-chaplain-6 = Vampires aren't real.
+figurines-chaplain-7 = REPENT!!
 
 figurines-chef-1 = I swear it's not human meat.
 figurines-chef-2 = More banana cream pies?
@@ -305,12 +313,11 @@ figurines-nukie-commander-3 = The Syndicate sends its regards.
 figurines-nukie-commander-4 = Failure is not an option.
 figurines-nukie-commander-5 = Whoops.
 
-figurines-nukie-elite-1 = Not a word in Nanotrasen.
-figurines-nukie-elite-2 = THAT'S A KEG!
-figurines-nukie-elite-3 = Guys, are you alive?
-figurines-nukie-elite-4 = Breach and clear!
-figurines-nukie-elite-5 = Leave no survivors.
-figurines-nukie-elite-6 = Good work, team.
+figurines-nukie-elite-1 = THAT'S A KEG!
+figurines-nukie-elite-2 = Guys, are you alive?
+figurines-nukie-elite-3 = Breach and clear!
+figurines-nukie-elite-4 = Leave no survivors.
+figurines-nukie-elite-5 = Good work, team.
 
 figurines-queen-1 = Our domain must grow.
 figurines-queen-2 = The hive hungers.
@@ -323,7 +330,7 @@ figurines-rat-king-1 = Gimme some food, capiche?
 figurines-rat-king-2 = Fugeddaboutit.
 figurines-rat-king-3 = Whack 'em!
 figurines-rat-king-4 = Let me give you an offer you can't refuse, capiche?
-figurines-rat-king-5 = Nothing personal, capiche?
+figurines-rat-king-5 = Nothing personal, see?
 figurines-rat-king-6 = I run this station now, see? Nyeh!
 
 figurines-rat-servant-1 = Capiche!

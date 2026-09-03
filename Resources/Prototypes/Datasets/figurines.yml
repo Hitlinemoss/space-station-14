@@ -2,7 +2,7 @@
   id: FigurinesHoP
   values:
     prefix: figurines-hop-
-    count: 7
+    count: 9
 
 - type: localizedDataset
   id: FigurinesPassenger
@@ -68,7 +68,7 @@
   id: FigurinesDetective
   values:
     prefix: figurines-detective-
-    count: 5
+    count: 6
 
 - type: localizedDataset
   id: FigurinesSecurity
@@ -86,7 +86,7 @@
   id: FigurinesCargoTech
   values:
     prefix: figurines-cargotech-
-    count: 10
+    count: 12
 
 - type: localizedDataset
   id: FigurinesSalvage
@@ -98,7 +98,7 @@
   id: FigurinesQM
   values:
     prefix: figurines-qm-
-    count: 8
+    count: 7
 
 - type: localizedDataset
   id: FigurinesCE
@@ -128,7 +128,7 @@
   id: FigurinesScientist
   values:
     prefix: figurines-scientist-
-    count: 6
+    count: 7
 
 - type: localizedDataset
   id: FigurinesCMO
@@ -140,7 +140,7 @@
   id: FigurinesChemist
   values:
     prefix: figurines-chemist-
-    count: 8
+    count: 9
 
 - type: localizedDataset
   id: FigurinesParamedic
@@ -152,7 +152,7 @@
   id: FigurinesDoctor
   values:
     prefix: figurines-doctor-
-    count: 6
+    count: 7
 
 - type: localizedDataset
   id: FigurinesLibrarian
@@ -164,7 +164,7 @@
   id: FigurinesChaplain
   values:
     prefix: figurines-chaplain-
-    count: 6
+    count: 7
 
 - type: localizedDataset
   id: FigurinesChef
@@ -206,7 +206,7 @@
   id: FigurinesNukieElite
   values:
     prefix: figurines-nukie-elite-
-    count: 6
+    count: 5
 
 - type: localizedDataset
   id: FigurinesNukieCommander
