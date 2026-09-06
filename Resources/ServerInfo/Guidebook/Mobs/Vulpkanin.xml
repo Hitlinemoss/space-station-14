@@ -5,12 +5,14 @@
     <GuideEntityEmbed Entity="MobVulpkanin" Caption=""/>
   </Box>
 
-  Vulpkanin, due to their dense fur, [color=#1e90ff]prefer colder temperatures[/color] and [color=#ffa500]heat up faster.[/color]
-  Their agile (but clumsy) legs allow them to leap short distances, be careful not to bump into anything!
+  Their agile (but clumsy) legs allow them to leap short distances. Be careful not to bump into anything!
 
-  Their diet allows them to safely eat raw meat but they get poisoned by theobromine.
+  Their animal-like digestive systems can process raw meat and blood without any ill effects,
+  but are poisoned by chemicals such as allicin (found in garlic and onions) and theobromine (found in caffinated beverages and chocolate).
 
-  Their weirdly shaped muzzle leads to difficulties drinking, making them sometimes spill small amounts of whatever they drank onto the ground.
+  Their weirdly shaped muzzle leads to difficulties drinking, making them sometimes spill small amounts of whatever they drink onto the ground.
 
-  They take [color=#1e90ff]15% less Cold damage[/color] but [color=#ffa500]15% more Heat damage.[/color].
+  They take [color=#1e90ff]15% less Cold damage[/color], but [color=#ffa500]15% more Heat damage[/color].
+  Their dense fur makes them more resistant to cold temperatures, but also makes them [color=#ffa500]extremely flammable[/color].
+
 </Document>
