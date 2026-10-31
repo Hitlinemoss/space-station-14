@@ -56,25 +56,25 @@
   id: FigurinesHoS
   values:
     prefix: figurines-hos-
-    count: 5
+    count: 6
 
 - type: localizedDataset
   id: FigurinesWarden
   values:
     prefix: figurines-warden-
-    count: 6
+    count: 7
 
 - type: localizedDataset
   id: FigurinesDetective
   values:
     prefix: figurines-detective-
-    count: 6
+    count: 7
 
 - type: localizedDataset
   id: FigurinesSecurity
   values:
     prefix: figurines-security-
-    count: 10
+    count: 12
 
 - type: localizedDataset
   id: FigurinesLawyer
@@ -98,19 +98,19 @@
   id: FigurinesQM
   values:
     prefix: figurines-qm-
-    count: 7
+    count: 8
 
 - type: localizedDataset
   id: FigurinesCE
   values:
     prefix: figurines-ce-
-    count: 6
+    count: 7
 
 - type: localizedDataset
   id: FigurinesEngineer
   values:
     prefix: figurines-engineer-
-    count: 7
+    count: 6
 
 - type: localizedDataset
   id: FigurinesAtmosTech
@@ -146,25 +146,25 @@
   id: FigurinesParamedic
   values:
     prefix: figurines-paramedic-
-    count: 5
+    count: 7
 
 - type: localizedDataset
   id: FigurinesDoctor
   values:
     prefix: figurines-doctor-
-    count: 7
+    count: 9
 
 - type: localizedDataset
   id: FigurinesLibrarian
   values:
     prefix: figurines-librarian-
-    count: 14
+    count: 15
 
 - type: localizedDataset
   id: FigurinesChaplain
   values:
     prefix: figurines-chaplain-
-    count: 7
+    count: 9
 
 - type: localizedDataset
   id: FigurinesChef
@@ -224,7 +224,7 @@
   id: FigurinesWizard
   values:
     prefix: figurines-wizard-
-    count: 8
+    count: 9
 
 - type: localizedDataset
   id: FigurinesSpaceDragon

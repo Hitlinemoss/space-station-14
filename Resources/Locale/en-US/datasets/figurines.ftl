@@ -19,7 +19,6 @@ figurines-qm-5 = PLEASE stop approving the clown's orders.
 figurines-qm-6 = Did salvage die in space again?
 figurines-qm-7 = Let's keep those crates moving, people.
 figurines-qm-8 = Bunch of crap bounties today...
-figurines-qm-9 =
 
 figurines-cargotech-1 = DRAGON ON ATS!!
 figurines-cargotech-2 = I sold the station!
@@ -196,14 +195,16 @@ figurines-boxer-4 = Don't look at me; he was shot, not punched.
 figurines-boxer-5 = 1v1 me, captain.
 figurines-boxer-6 = I only make special appearances these days.
 
-figurines-chaplain-1 = Would you like to join my cul- I mean religion.
-figurines-chaplain-2 = Gods, please make me a killing machine!
-figurines-chaplain-3 = God exists!
-figurines-chaplain-4 = Those aren't blood runes, I drew them with a crayon.
-figurines-chaplain-5 = Anyone want to be sacrificed?
-figurines-chaplain-6 = Vampires aren't real.
-figurines-chaplain-7 = REPENT!!
-figurines-chaplain-8 = The end is nigh!
+figurines-chaplain-1 = Gods, please make me a killing machine!
+figurines-chaplain-2 = God exists!
+figurines-chaplain-3 = Vampires aren't real.
+figurines-chaplain-4 = REPENT!!
+figurines-chaplain-5 = The end is nigh!
+figurines-chaplain-6 = Die, monster!
+figurines-chaplain-7 = Anyone die recently? I do funerals.
+figurines-chaplain-8 = Be blessed, my child.
+# Translates to "In truth I do not know the latin language", according to web translation.
+figurines-chaplain-9 = Re vera linguam latinam nescio.
 
 figurines-chef-1 = I swear it's not human meat.
 figurines-chef-2 = More banana cream pies?
