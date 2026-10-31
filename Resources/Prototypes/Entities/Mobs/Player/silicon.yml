@@ -568,7 +568,7 @@
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellHyper
   - type: RandomMetadata
-    nameSegments: [NamesBorgAssault]
+    nameSegments: [NamesSyndieborgAssault]
 
 - type: entity
   id: PlayerBorgSyndicateAssaultGhostRole
@@ -844,7 +844,7 @@
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellHyper
   - type: RandomMetadata
-    nameSegments: [NamesBorgAssault]
+    nameSegments: [NamesSyndieborgAssault]
 
 - type: entity
   parent: PlayerSyndicateAssaultBorgDerelict
